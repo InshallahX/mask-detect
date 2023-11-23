@@ -1,0 +1,7 @@
+Flask==2.2.3
+flask_ngrok==0.0.25
+numpy==1.24.3
+opencv_python==4.7.0.72
+opencv_python_headless==4.8.1.78
+Pillow==10.1.0
+torch==2.1.1
