@@ -60,4 +60,6 @@ def predict(image_path):
 
 if __name__ == "__main__":
     model = torch.hub.load('ultralytics/yolov5', 'custom', path='model.pt', force_reload=True, skip_validation=True)
+    # Assuming your YOLOv5 model is named 'net'
+    #torch.save(model.state_dict(), 'test.pt')
     app.run()
